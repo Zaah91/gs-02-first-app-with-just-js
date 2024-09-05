@@ -5,7 +5,7 @@ const listEl = document.querySelector("ul");
 function addGoal() {
   const enteredValue = inputEl.value;
   const listItemEl = document.createElement("li");
-  listItemEl.textContent = enteredValue;
+  listItemEl.textContent = enteredValues;
   listEl.appendChild(listItemEl);
   inputEl.value = "";
 }
